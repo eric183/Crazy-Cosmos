@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+	  "baseUrl": ".",
+	  "module": "CommonJS",
+    "skipLibCheck": true
+	},
+	"include": ["src/types/DaoPaaS.d.ts"],
+  	"exclude": ["**/node_modules/**"],
+	"typedocOptions": {
+	  "entryPoints": ["src/types/DaoPaaS.d.ts"],
+	  "out": "dist/docs",
+	  "name": "DaoPaaS API Options"
+	}
+}
